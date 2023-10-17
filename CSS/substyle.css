@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Mukta';
+}
+body{
+    background-color: black;
+}
+.home{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
+.home .txt{
+    width: 550px;
+}
+.home div .pc{
+    
+    width: 45%;
+
+    height: 555px;
+
+    padding: 10px 20px;
+
+}
+.home div .ph{
+    display: none;
+}
+.home .txt{
+    width: 750px;
+}
+.main{
+    width: 1130px;
+    max-width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.txt h1{
+    font-size: 50px;
+    color: #ff2000;
+}
+.txt h4{
+    font-size: 30px;
+    color: #ff452a;
+    padding: 10px 0;
+}
+.txt p{
+    font-size: 20px;
+    padding: 5px 0;
+    font-size: 20px;
+    padding: 12px 0;
+    color: white;
+    display: inline-block;
+    text-shadow: 1px 1px 2px black, 2px darkred, 0 0 2px red;
+}
+.txt a{
+    text-decoration: underline;
+    color: #ff452a;
+    font-size: x-large;
+}
+
+@media(max-width: 720px){
+    .home div .pc{
+        display: none;
+    }
+    .home div .ph{
+        display: block;
+        width: 90%;
+        align-items: center;
+        text-align: center;
+        float: center;
+    }
+    .txt{
+        margin: 10px 15px;
+        width: 15%;
+        font-weight: 10px;
+    }
+    .main{
+    width: 100%;
+    max-width: 100%;
+    }
+
+}
